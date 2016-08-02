@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	img{width: 100%;height: 100%;border: none;}
+		*{margin: 0;padding: 0;}
+		.cmbody{width: 100%;}
+		.row{width: 1180px;display: block;margin: 0 auto;overflow: hidden;}
+		.row .slider{width: 1180px;height: 342px;position: relative;margin-bottom: 20px;}
+		.slider .imgbox{width: 100%;height: 100%;position: relative;list-style: none;}
+		.slider .imgbox .image-waper{position: absolute;left: 0;top: 0;list-style: none;width: 100%;height: 100%;overflow: hidden;display: none;}
+		.slider-footer{position: relative;width: 100%;height: 70px;margin-top: -70px;z-index: 1;background:rgba(0,0,0,.7);}
+		.slider-nav{width: 835px;padding: 12px 0;position: absolute;right: 0;height: auto;overflow: hidden;}
+		.slider-nav .btnpre,.slider-nav .btnnext{width: 20px;height: 46px;font-size: 18px;line-height: 46px;background: #fff;text-align: center;}
+		.btnpre{float: left;margin-left: 10px;}
+		.btnnext{float: right;margin-right: 10px;}
+		.btn-waper{width: 770px;margin-left: 2px;overflow: hidden;height: 46px;float: left;position: relative;}
+		.btnimage{width: 1550px;margin: 0;padding: 0;list-style: none;}
+		.btnimage .image-waper{width: 71px;margin: 0 3px;height: 46px;float: left;position: relative;}
+		.btnimage .image-waper.active a:before{content: '';position: absolute;top: 0;left: 0;bottom: 0;right: 0;border: 3px solid #2BB8E7;}
+
+	</style>
+</head>
+<body>
+<div class="cmbody">
+	<div class="row">
+		<div class="slider">
+			<ul class="imgbox">
+				<li class="image-waper" style="z-index:1;display:block"><a href=""><img src="images/1.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/2.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/3.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/4.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/5.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/6.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/7.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/8.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/9.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/10.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/11.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/12.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/13.png" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/14.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/15.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/16.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/17.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/18.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/19.jpg" alt=""></a></li>
+				<li class="image-waper"><a href=""><img src="images/20.jpg" alt=""></a></li>
+			</ul>
+			<div class="slider-footer">
+				<div class="slider-nav">
+					<span class="btnpre">&lt;</span>
+					<div class="btn-waper">
+						<ul class="btnimage" style="margin-left:0">
+							<li class="image-waper active"><a href=""><img src="images/1.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/2.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/3.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/4.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/5.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/6.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/7.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/8.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/9.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/10.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/11.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/12.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/13.png" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/14.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/15.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/16.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/17.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/18.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/19.jpg" alt=""></a></li>
+							<li class="image-waper"><a href=""><img src="images/20.jpg" alt=""></a></li>
+						</ul>
+					</div>
+					<span class="btnnext">&gt;</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>
+		$(function(){
+			var num=0,timer=null,itag=true;
+			$('.slider').mouseenter(function(){
+				clearInterval(timer);
+			}).mouseleave(function(){
+				timer=setInterval(automove,3000);
+			})
+			$('.btnimage .image-waper').mouseover(function(){
+				clearInterval(timer)
+				num=$(this).index();
+				move()
+			})
+			function automove(){
+				num++;
+				if(num>=$('.imgbox .image-waper').length){
+					num=0;
+					$('.btnimage').css(({marginLeft:'0'}))
+				}
+				if(num>=10){
+					$('.btnimage').css(({marginLeft:'-770px'}));
+					itag=false;
+				}else{
+					$('.btnimage').css(({marginLeft:'0'}));
+					itag=true;
+				}
+				move(num)
+			}
+			timer=setInterval(automove,3000)
+			$('.btnpre').click(function(){
+				if(itag){
+					$('.btnimage').css(({marginLeft:'-770px'}));
+					itag=false;
+				}else{
+					$('.btnimage').css(({marginLeft:'0px'}));
+					itag=true;
+				}
+			})
+			$('.btnnext').click(function(){
+				if(itag){
+					$('.btnimage').css(({marginLeft:'-770px'}));
+					itag=false;
+				}else{
+					$('.btnimage').css(({marginLeft:'0px'}));
+					itag=true;
+				}
+			})
+			function move(){
+				$('.imgbox .image-waper').eq(num).fadeIn('fast').siblings().fadeOut('fast');
+				$('.imgbox .image-waper').eq(num).css({zIndex:'1'}).siblings().css({zIndex:'0'});
+				$('.btnimage .image-waper').eq(num).addClass('active').siblings().removeClass('active');
+			}
+
+		})
+	</script>
+</body>
+</html>
